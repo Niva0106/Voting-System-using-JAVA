@@ -397,6 +397,6 @@ class Admin extends User {
 class DBUtil {
     public static Connection getConnection() throws SQLException, ClassNotFoundException {
         Class.forName("com.mysql.cj.jdbc.Driver");
-        return DriverManager.getConnection("jdbc:mysql://localhost:3306/votingdb2", "root", "Bloom@333");
+        return DriverManager.getConnection("jdbc:mysql://localhost:3306/votingdb2", "root", "password");
     }
 }
