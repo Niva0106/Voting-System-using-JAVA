@@ -6,7 +6,7 @@
 # --- MySQL settings ---
 MYSQL_JAR="./mysql-connector-java-9.4.0.jar"
 MYSQL_USER="root"
-MYSQL_PASS="Bloom@333"
+MYSQL_PASS="password"                #change to database password
 MYSQL_DB="votingdb2"
 SQL_FILE="./votingdb2.sql"
 
