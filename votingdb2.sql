@@ -12,7 +12,7 @@ CREATE TABLE IF NOT EXISTS admin (
 
 INSERT INTO admin (username, password)
 VALUES ('admin', 'admin123')
-ON DUPLICATE KEY UPDATE username='admin', password='admin123';
+ON DUPLICATE KEY UPDATE username='admin', password='admin123';    -- default admin credentials
 
 -- ------------------------
 -- VOTERS TABLE
