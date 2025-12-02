@@ -13,7 +13,7 @@ import javax.swing.border.EmptyBorder;
 // Removed duplicate class definitions so the GUI reuses the canonical implementations.
 
 // ------------------------ GUI ------------------------
-public class VotingGUI2 extends JFrame {
+public class VotingGUI extends JFrame {
     private Admin adminLogic = new Admin();
     private Voter currentVoter;
 
@@ -25,7 +25,7 @@ public class VotingGUI2 extends JFrame {
     private final Color accent1 = Color.decode("#1DCD9F");
     private final Color accent2 = Color.decode("#169976");
 
-    public VotingGUI2() {
+    public VotingGUI() {
         setTitle("Voting System");
         setSize(900, 650);
         setLocationRelativeTo(null);
