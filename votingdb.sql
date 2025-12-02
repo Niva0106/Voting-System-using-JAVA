@@ -1,5 +1,5 @@
-CREATE DATABASE IF NOT EXISTS votingdb2;
-USE votingdb2;
+CREATE DATABASE IF NOT EXISTS votingdb;
+USE votingdb;
 
 -- ------------------------
 -- ADMIN TABLE
