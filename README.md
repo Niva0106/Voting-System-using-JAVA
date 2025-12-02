@@ -1,7 +1,7 @@
 # Voting-System-using-JAVA
 
 A simple Java + MySQL based **Digital Voting System** with both a GUI and backend logic.  
-This project supports admin controls, voter management, candidate handling, and secure one-time voting.
+This project supports admin controls, voter management, candidate handling, and secure one-time voting. 
 
 ## ⭐ Features
 - Voter registration with age verification (18+)
@@ -23,14 +23,12 @@ This project supports admin controls, voter management, candidate handling, and 
 - **Bash scripting**
 - **File handling (LONGBLOB for images)**
 
----
-
 ## 📁 Project Structure
 src/
-├── VotingLogic.java (Backend logic)
-├── VotingGUI.java (GUI for login, admin, and voting)
-├── LaunchVoting.sh (Script to run the application)
-└── votingdb.sql (Database schema)
+- VotingLogic.java (Backend logic)
+- VotingGUI.java (GUI for login, admin, and voting)
+- LaunchVoting.sh (Script to run the application)
+- votingdb.sql (Database schema)
 
 ## How to Run
 
@@ -54,6 +52,4 @@ src/
 5. **Start Using the App**
    - When the window opens, log in with the admin username and password added by `votingdb.sql`.
    - Add candidates, register voters, and start voting.
-
-## 📁 Project Structure
 
