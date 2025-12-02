@@ -7,8 +7,8 @@
 MYSQL_JAR="./mysql-connector-java-9.4.0.jar"
 MYSQL_USER="root"
 MYSQL_PASS="password"                #change to database password
-MYSQL_DB="votingdb2"
-SQL_FILE="./votingdb2.sql"
+MYSQL_DB="votingdb"
+SQL_FILE="./votingdb.sql"
 
 # --- Start MySQL service (systemd-based distros) ---
 echo "Starting MySQL service..."
@@ -45,4 +45,4 @@ echo "Compilation successful."
 
 # --- Launch GUI ---
 echo "Launching Voting System GUI..."
-java -cp ".:$MYSQL_JAR" VotingGUI2
+java -cp ".:$MYSQL_JAR" VotingGUI
